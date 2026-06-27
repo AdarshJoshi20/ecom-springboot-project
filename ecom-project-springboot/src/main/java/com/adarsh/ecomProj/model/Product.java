@@ -32,8 +32,8 @@ public class Product {
 	private String category;
 	
 	
-//	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
-	//commented above line because date format is handled in frontend itself
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+	
 	private Date releaseDate;
 	private boolean productAvailable;
 	private int stockQuantity;
