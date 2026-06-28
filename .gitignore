@@ -1,6 +1,7 @@
 # Ignore Spring Boot compiled files
 **/target/
 **/*.class
+**/application.properties
 
 # Ignore React dependencies and builds
 **/node_modules/
